@@ -38,6 +38,9 @@
                 if(canvas.getContext){
                     var context=canvas.getContext("2d");
                     context.clearRect(0,0,480,270)
+                    context.fillStyle = "white";
+                    context.fillRect(0, 0, 480, 270);
+                    context.fillStyle = "black";
                     context.font="50px Yu Gothic Bold";
                     context.textAlign="center";
                     context.textBaseline="middle"
